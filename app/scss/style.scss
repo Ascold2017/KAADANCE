@@ -123,12 +123,9 @@ body{
 .header{
     background-image: url("img/fon1.png");
 	background-size:cover;
-<<<<<<< HEAD:app/scss/style.scss
     background-repeat: no-repeat;
     background-position: 51.5% 0;
-=======
     background-position: center 0;
->>>>>>> parent of 2cf12c2... final 3:app/scss/main.scss
 	width:100%;
     padding: 20px 0 78px;
 }
@@ -152,7 +149,7 @@ body{
 	justify-content:space-between;
     align-items: center;
 }
-<<<<<<< HEAD:app/scss/style.scss
+
 .header_logo{
     position: relative;
     left: 6px;
@@ -161,8 +158,7 @@ body{
 height: auto
     }
 }
-=======
->>>>>>> parent of 2cf12c2... final 3:app/scss/main.scss
+
 .header_menu_link{
     padding: 0 20px;
     color: #ffffff;
@@ -273,15 +269,15 @@ height: auto
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-<<<<<<< HEAD:app/scss/style.scss
+
     text-align: justify;
     -moz-text-align-last: justify;
   text-align-last: justify;
      white-space: pre-wrap;
     line-height: 20px;
-=======
+
     text-align: center;
->>>>>>> parent of 2cf12c2... final 3:app/scss/main.scss
+
     &.accent{
         font-weight: 400;
         color: #ffffff;
