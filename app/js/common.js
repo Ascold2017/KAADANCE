@@ -29,12 +29,12 @@ $(document).ready(function(){
            }
             var first = true;
             window.onresize = function(){
-                if (($(window).width() <= '630')&(first)){
+                if (($(document).width() <= '630')&(first)){
                     $('.header_main__left>.header__button').appendTo( $('.header_main__right') );
                     first = false;
                    }
                 else{
-                    if((!first)&($(window).width() > '630')){
+                    if((!first)&($(document).width() > '630')){
                          $('.header_main__right>.header__button').appendTo( $('.header_main__left') );
                         first = true;
                     }
