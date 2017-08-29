@@ -4,6 +4,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
+    .section_prize {
+	 background-position: 40% 0;
+}
     .about_container{
         background-position: 0 center;
         flex-direction: column;
@@ -70,6 +73,8 @@
 	/**/
 
 @media only screen and (max-width : 900px){
+
+    
    
         .about_list{
    
@@ -179,6 +184,9 @@
     }
     .two_section__img{
     right:-200px;
+}
+    .section_prize {
+	 background-position: 35% 0;
 }
      .prize_bg__img{
     &.left{
@@ -432,6 +440,9 @@
             left: calc(50% - 300px);
         }
     }
+    .section_prize {
+	 background-position: 30% 0;
+}
      .prize_bg__img{
         &.left{
          width: 120%;
@@ -519,6 +530,9 @@
             left: calc(50% - 240px);
         }
     }
+    .section_prize {
+	 background-position:50% 0;
+}
      .prize_bg__img{
     &.left{
      width: 100%;
